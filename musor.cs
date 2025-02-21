@@ -1,3 +1,4 @@
+//Лучше наложить на пустой объект
 using System.Collections.Generic;
 using UnityEngine;
 
