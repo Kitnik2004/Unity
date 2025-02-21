@@ -1,3 +1,4 @@
+//Накладывается на оба джойстика
 using UnityEngine;
 using UnityEngine.EventSystems;
 
