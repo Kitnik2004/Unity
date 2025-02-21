@@ -2,13 +2,12 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Joystick : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
+public class Joystick : MonoBehaviour, IDragHandler, IEndDragHandler
     
 {
     [SerializeField] GameObject handle;
     [SerializeField] Vector3 positionHandler;
     public Vector3 direction;
-    public bool isMoving;
 
     private void Start()
     {
@@ -37,11 +36,5 @@ public class Joystick : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     {
         handle.transform.position = positionHandler;
         direction = Vector3.zero;
-        isMoving = false;
-    }
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        isMoving = true;
     }
 }
