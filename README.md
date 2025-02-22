@@ -30,6 +30,7 @@ scores = PlayerPrefs.GetInt("№");
 
 name = PlayerPrefs.GetString("№"+n);
 
-Соприкосновение с коллайдерами: 
+
+//Соприкосновение с коллайдерами: 
 
 OnCollisionEnter(){}
