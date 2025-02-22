@@ -21,10 +21,15 @@ debris - мусор
 Чтобы создать скайбокс, нужно сначала создать материал
 
 //Сохранение данных//
+
 PlayerPrefs.SetInt("№", scores);
+
 PlayerPrefs.SetString("№"+n, name);
+
 scores = PlayerPrefs.GetInt("№");
+
 name = PlayerPrefs.GetString("№"+n);
 
 Соприкосновение с коллайдерами: 
+
 OnCollisionEnter(){}
