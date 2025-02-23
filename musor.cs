@@ -1,3 +1,4 @@
+//Я твой мама сунул вынул
 //Лучше наложить на пустой объект
 using System.Collections.Generic;
 using UnityEngine;
